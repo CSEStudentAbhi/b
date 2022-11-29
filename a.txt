@@ -1,0 +1,11 @@
+mkdir A
+cd A
+git init
+touch a.html
+notepad a.html
+//write html
+git add .
+git commit -m "this is commit"
+git branch -M main
+git remote add origin https://github.com/CSEStudentAbhi/b.git
+git push -u origin main
